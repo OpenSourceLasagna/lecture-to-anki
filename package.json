@@ -1,6 +1,6 @@
 {
   "name": "lecture-to-anki",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Lecture to anki electron application using tesseract, chatgpt and other libraries to convert pdf/pptx files into anki decks",
   "main": "dist/electron/app.js",
   "scripts": {
@@ -39,7 +39,20 @@
     "type": "github",
     "url": "https://github.com/Paul0908/lecture-to-anki.git"
   },
-  "keywords": ["pptx", "pdf", "anki", "convert", "AI", "GPT", "tesseract"],
+  "keywords": [
+    "pptx",
+    "pdf",
+    "anki",
+    "convert",
+    "AI",
+    "GPT",
+    "tesseract",
+    "flashcards",
+    "generate",
+    "learning",
+    "study",
+    "e-learning"
+  ],
   "author": "Paul0908",
   "license": "ISC",
   "bugs": {
@@ -59,10 +72,8 @@
     "electron-reload": "^2.0.0-alpha.1",
     "fs": "^0.0.1-security",
     "openai": "^4.80.1",
-    "pdf-lib": "^1.17.1",
     "pdf2json": "^3.1.5",
     "pptx-content-extractor": "^1.0.3",
-    "stream-mime-type": "^2.0.0",
     "tesseract.js": "^6.0.0"
   }
 }
