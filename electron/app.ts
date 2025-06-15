@@ -36,10 +36,10 @@ async function main() {
 
 ipcMain.handle("pptx-to-new-anki", async (_event, path: string, deckName: string, savePath: string) => {
   //TODO get path from config.json
-  return await convertPptxToAnki(path, deckName, '/home/paul/Desktop');
+  return await convertPptxToAnki(path, deckName, savePath);
 });
 
 ipcMain.handle("pdf-to-new-anki", async (_event, path: string, deckName: string, savePath: string) => {
   //TODO get path from config.json
-  return await convertPdfToAnki(path, deckName, '/home/paul/Desktop');
+  return await convertPdfToAnki(path, deckName, savePath);
 });
